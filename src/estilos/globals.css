@@ -1,29 +1,36 @@
 body {
   margin: 0;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
   /*place-items: center;*/
   min-width: 320px;
-  min-height: 100vh;
+  max-width: 1240px;
+  /* min-height: 100vh; */
+  border: 13px solid orange;
+  box-sizing: border-box;
 }
 
 h1 {
   font-size: 28px;
   font-weight: bold;
   line-height: 1.1;
-  margin: 20px;
+  margin: 16px 0;
 }
 
 h2 {
   font-size: 23px;
   font-weight: bold;
   line-height: 1.1;
-  margin: 10px;
+  margin: 10px 0;
 }
 
 h3 {
   font-size: 19px;
   font-weight: bold;
   line-height: 1.1;
+  margin: 6px 0;
 }
 
 label {
